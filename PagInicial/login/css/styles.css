@@ -7,11 +7,15 @@ background-color: #f4f4f4;
 }
 
 /* Estilos header */
+
+
 header {
+text-align: center;
 background-color: #ffffff;
 border-bottom: 2px solid #ccc;
 padding: 15px;
 }
+
 
 /* El login */
 #Formulario-Login {
@@ -55,6 +59,12 @@ cursor: pointer;
 }
 
 /* Main */
+
+#imgCalendario{
+    width: 700px;
+    height: 800px;
+}
+
 #main-principal {
 text-align: center;
 padding: 50px 20px;
