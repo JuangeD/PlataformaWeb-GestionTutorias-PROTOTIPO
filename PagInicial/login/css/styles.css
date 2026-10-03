@@ -1,0 +1,80 @@
+/* Stylos basicos del bodi */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+
+/* Estilos header */
+header {
+background-color: #ffffff;
+border-bottom: 2px solid #ccc;
+padding: 15px;
+}
+
+/* El login */
+#Formulario-Login {
+text-align: right;
+}
+
+#Formulario-Login div {
+display: inline-block;
+margin-right: 10px;
+}
+
+#Formulario-Login label {
+font-weight: bold;
+margin-right: 5px;
+}
+
+/* Inputs*/
+#usuario, #contraseña {
+border: 1px solid #777;
+border-radius: 4px;
+padding: 5px 8px;
+}
+
+/* Botones*/
+.btn-login {
+background-color: #007bff;
+color: white;
+border: 1px solid #0056b3;
+border-radius: 4px;
+padding: 6px 12px;
+cursor: pointer;
+}
+
+.btn-reg {
+background-color: #e0e0e0;
+color: black;
+border: 1px solid #999;
+border-radius: 4px;
+padding: 6px 12px;
+cursor: pointer;
+}
+
+/* Main */
+#main-principal {
+text-align: center;
+padding: 50px 20px;
+}
+
+#main-principal div {
+background-color: white;
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 20px;
+display: inline-block;
+}
+
+/* Pie de página */
+#footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 15px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
