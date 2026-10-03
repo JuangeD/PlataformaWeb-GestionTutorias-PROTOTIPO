@@ -8,12 +8,12 @@
     <!--Fuente para la pagina-->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <script src="script.js" defer></script>
+    <script src="script/script.js" defer></script>
 </head>
 <body>
 
     <header>
-        <form id="Formulario-Login">
+        <section id="Formulario-Login">
             <div>
                 <label>Usuario</label>
                 <input id="usuario" placeholder="Usuario">
@@ -21,11 +21,14 @@
 
             <div>
                 <label>Contraseña</label>
-                <input id="contraseña" placeholder="Contraseña">
+                <input id="contraseña" type="password" placeholder="Contraseña">
             </div>
-            <button type="submit" class="btn-login">Entrar</button>
-            <button type="submit" class="btn-reg">Registrate</button>
-        </form>
+            <button type="submit" id="btnLogin">Entrar</button>
+            <button type="submit" id="btnReg">Registrate</button>
+        </section>
+        <div>
+            <p id="mensajeInicio"></p>
+        </div>
     </header>
 
 
