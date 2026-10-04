@@ -1,0 +1,119 @@
+/* Stylos basicos del bodi */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+
+/* Estilos header */
+
+
+header {
+text-align: center;
+background-color: #ffffff;
+border-bottom: 2px solid #ccc;
+padding: 15px;
+}
+
+
+#Formulario-Registro {
+ 
+  align-items: center;
+ 
+  max-width: 400px;
+  margin: 0 auto;
+ 
+  font-weight: bold;
+}
+
+
+
+
+
+#Formulario-Registro input {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+/* Efecto para cuando pulsamos */
+#Formulario-Registro input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+/* Botones*/
+#btnRegister {
+background-color: #007bff;
+color: white;
+border: 1px solid #0056b3;
+border-radius: 4px;
+padding: 6px 12px;
+cursor: pointer;
+}
+
+#btnReg {
+background-color: #e0e0e0;
+color: black;
+border: 1px solid #999;
+border-radius: 4px;
+padding: 6px 12px;
+cursor: pointer;
+}
+
+/* Main */
+
+#imgCalendario{
+    width: 700px;
+    height: 800px;
+}
+
+#main-principal {
+text-align: center;
+padding: 50px 20px;
+}
+
+section{
+background-color: white;
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 20px;
+display: inline-block;
+width: auto;
+}
+
+/* Pie de página */
+#footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 15px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+div{
+    padding: 1%;
+}
+
+/*Div de mensaje*/
+
+#mensajeRegistro {
+    text-align: center;
+}
+/* Mensaje de correcto (verde) */
+.mensaje-exito {
+    color: green;
+    font-weight: bold;
+}
+
+/* Mensaje de error (rojo) */
+.mensaje-error {
+    color:red;
+    font-weight: bold;
+}
