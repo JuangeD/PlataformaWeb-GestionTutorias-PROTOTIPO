@@ -85,3 +85,9 @@ function borraMensaje(){
     mensaje.innerHTML ="";
 }
 
+/**
+ * Funcion para ir a la pagina de registro
+ */
+document.getElementById('btnReg').addEventListener('click', function() {
+  window.location.href = '/PagRegistro/index.html'; 
+});
